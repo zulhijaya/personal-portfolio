@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .section {
+        @apply px-48 pb-16;
+    }
+
+    .section-title {
+        @apply font-semibold text-7xl leading-[1.15] mb-10;
+    }
+
+    .italic-text {
+        @apply font-semibold text-purple-main w-2 h-4 -rotate-[25deg] -ml-4;
+    }
+}

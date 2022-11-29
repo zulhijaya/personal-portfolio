@@ -1,5 +1,5 @@
 <template>
-    <nav class="py-4">
+    <nav class="py-4 px-48">
         <div class="flex items-center justify-between">
             <h1 class="font-semibold text-2xl">ZuloDev</h1>
             <ul class="flex items-center space-x-4">
