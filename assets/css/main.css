@@ -4,16 +4,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: "Rota";
+        font-weight: 400;
+        src: url("../font/Rota/Rota-Regular.otf") format('truetype');
+    }
+
+    @font-face {
+        font-family: "Rota";
+        font-weight: 500;
+        src: url("../font/Rota/Rota-Medium.otf") format('truetype');
+    }
+
+    @font-face {
+        font-family: "Rota";
+        font-weight: 600;
+        src: url("../font/Rota/Rota-SemiBold.otf") format('truetype');
+    }
+
+    @font-face {
+        font-family: "Rota";
+        font-weight: 700;
+        src: url("../font/Rota/Rota-Bold.otf") format('truetype');
+    }
+
+    @font-face {
+        font-family: "Rota";
+        font-weight: 900;
+        src: url("../font/Rota/Rota-Black.otf") format('truetype');
+    }
+}
+
 @layer components {
+    .container {
+        @apply max-w-screen-2xl mx-auto px-6 md:px-40
+    }
+
     .section {
-        @apply px-48 pb-16;
+        @apply py-20;
     }
 
     .section-title {
-        @apply font-semibold text-7xl leading-[1.15] mb-10;
+        @apply font-semibold text-5xl md:text-7xl leading-[1.15] md:leading-[1.15] mb-10;
     }
 
     .italic-text {
-        @apply font-semibold text-purple-main w-2 h-4 -rotate-[25deg] -ml-4;
+        @apply font-semibold text-purple-main w-2 h-4 -rotate-[20deg] -ml-5;
+    }
+
+    .menu {
+        @apply w-full md:w-auto max-h-0 lg:max-h-max overflow-hidden;
+        transition: max-height 0.3s ease-in-out
     }
 }

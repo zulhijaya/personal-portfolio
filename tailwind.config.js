@@ -12,6 +12,7 @@ module.exports = {
   theme: {
     fontFamily: {
         'main': ['Urbanist', ...defaultTheme.fontFamily.sans],
+        'rota': ['Rota', ...defaultTheme.fontFamily.sans],
     },
     extend: {
         colors: {

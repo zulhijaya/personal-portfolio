@@ -1,7 +1,7 @@
 <template>
     <div class="font-main antialiased bg-[#FCFBFA] text-gray-900">
-        <Navigation />
+        <Header />
         <Nuxt />
-        <!-- <Footer /> -->
+        <Footer />
     </div>
 </template>
