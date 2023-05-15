@@ -5,7 +5,7 @@
             <div class="flex flex-col md:flex-row md:items-center md:space-x-10">
                 <div class="flex-1 md:basis-5/12">
                     <div class="italic-text">Halo!</div>
-                    <h1 class="section-title">Kami punya <br> Pengalaman <br> Coding</h1>
+                    <h1 class="section-title">Kami Punya <br> Pengalaman <br> Coding</h1>
                     <img src="~/assets/img/code-typing-hidden.png" alt="Code Typing" class="md:hidden w-full">
                     <div class="flex space-x-5 mb-10">
                         <div class="flex">
@@ -162,10 +162,10 @@
                 <h2 class="section-title">Project <br> Terbaru</h2>
                 <div class="grid md:grid-cols-3 gap-y-16 md:gap-10 md:mt-20">
                     <div>
-                        <LatestProject title="AMS Agrobisnis Landing Page" category="Landing Page" image="amsagrobisnis.png"/>
+                        <LatestProject title="AMS Agrobisnis <br> Landing Page" category="Landing Page" image="amsagrobisnis.png"/>
                     </div>
                     <div class="md:-mt-28">
-                        <LatestProject title="Labelin SecureTag Landing Page" category="Landing Page" image="Labelin.png"/>
+                        <LatestProject title="Labelin SecureTag <br> Landing Page" category="Landing Page" image="Labelin.png"/>
                     </div>
                     <div class="md:-mt-56">
                         <LatestProject title="Customisasi Website <br> E-commerce" category="E-commerce" image="Katakanada.png"/>
@@ -246,7 +246,7 @@
 <script>
 export default {
     head: {
-        title: 'Zulo',
+        title: 'ZuloDev',
     },
     name: 'IndexPage'
 }
