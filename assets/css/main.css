@@ -5,34 +5,8 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "Rota";
-        font-weight: 400;
-        src: url("../font/Rota/Rota-Regular.otf") format('truetype');
-    }
-
-    @font-face {
-        font-family: "Rota";
-        font-weight: 500;
-        src: url("../font/Rota/Rota-Medium.otf") format('truetype');
-    }
-
-    @font-face {
-        font-family: "Rota";
-        font-weight: 600;
-        src: url("../font/Rota/Rota-SemiBold.otf") format('truetype');
-    }
-
-    @font-face {
-        font-family: "Rota";
-        font-weight: 700;
-        src: url("../font/Rota/Rota-Bold.otf") format('truetype');
-    }
-
-    @font-face {
-        font-family: "Rota";
-        font-weight: 900;
-        src: url("../font/Rota/Rota-Black.otf") format('truetype');
+    html {
+        scroll-behavior: smooth;
     }
 }
 
@@ -46,7 +20,7 @@
     }
 
     .section-title {
-        @apply font-semibold text-5xl md:text-7xl leading-[1.15] md:leading-[1.15] mb-10;
+        @apply font-semibold text-5xl md:text-7xl leading-[1.20] md:leading-[1.20] mb-10;
     }
 
     .italic-text {

@@ -11,7 +11,7 @@
             </div>
             <div id="menu" class="menu">
                 <div class="w-full pt-5 md:pt-0">
-                    <ul class="flex flex-col md:flex-row md:items-center space-y-3 md:space-x-8 md:space-y-0 font-medium text-gray-600 mb-3 md:mb-0">
+                    <ul class="flex flex-col md:flex-row md:items-center space-y-5 md:space-x-10 md:space-y-0 font-medium text-gray-600 mb-5 md:mb-0">
                         <li>
                             <a href="#layanan" class="hover:text-gray-900">Layanan</a>
                         </li>
@@ -27,10 +27,14 @@
                     </ul>
                 </div>
                 <div class="md:hidden w-full md:w-auto">
-                    <button class="w-full border-2 border-[#8873EF] px-5 py-3 rounded-xl font-semibold text">Hire Saya</button>
+                    <a href="https://api.whatsapp.com/send/?phone=6282238415331&text=Halo&type=phone_number&app_absent=0" target="_blank" class="focus:outline-none">
+                        <button class="w-full border-2 border-[#8873EF] px-5 py-3 rounded-xl font-semibold text">Hire Saya</button>
+                    </a>
                 </div>
             </div>
-            <button class="hidden md:block border-2 border-[#8873EF] px-5 py-3 rounded-xl font-semibold text">Hire Saya</button>
+            <a href="https://api.whatsapp.com/send/?phone=6282238415331&text=Halo&type=phone_number&app_absent=0" target="_blank" class="focus:outline-none">
+                <button class="hidden md:block border-2 border-[#8873EF] px-5 py-3 rounded-xl font-semibold text">Hire Saya</button>
+            </a>
         </div>
     </nav>
 </template>

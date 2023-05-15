@@ -1,9 +1,9 @@
 <template>
     <div class="border-t-2 border-gray-900 pt-4 pb-6 mb-5">
         <div class="flex space-x-8">
-            <div class="font-semibold text-xl">{{ number }}</div>
+            <div class="font-semibold text-xl mt-1.5 md:mt-2.5">{{ number }}</div>
             <div class="w-full">
-                <h3 class="font-semibold text-4xl md:text-5xl mb-6" v-html="name"></h3>
+                <h3 class="font-semibold leading-[1.35] md:leading-[1.35] text-4xl md:text-5xl mb-6" v-html="name"></h3>
                 <div class="flex items-center justify-between">
                     <div class="font-semibold">Explore</div>
                     <div class="bg-purple-main w-12 h-12 rounded-full flex items-center justify-center">
